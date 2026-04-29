@@ -1,0 +1,89 @@
+<h2>哪种首页布局更合适？</h2>
+<p class="subtitle">这是读者打开你博客的第一眼感受</p>
+
+<div class="cards">
+  <div class="card" data-choice="single" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup" style="margin:0;border-radius:0 0 0 0;border-bottom:none">
+        <div class="mockup-header">单列文章列表</div>
+        <div class="mockup-body" style="display:flex;flex-direction:column;gap:12px;align-items:center;background:#1a1a2e;padding:20px">
+          <div style="background:#16213e;border-radius:8px;padding:16px;width:100%;max-width:420px">
+            <div class="placeholder" style="width:60%;height:14px;margin-bottom:8px;background:#0f3460"></div>
+            <div class="placeholder" style="width:90%;height:10px;margin-bottom:4px;background:#1a1a3e"></div>
+            <div class="placeholder" style="width:40%;height:10px;background:#1a1a3e"></div>
+          </div>
+          <div style="background:#16213e;border-radius:8px;padding:16px;width:100%;max-width:420px">
+            <div class="placeholder" style="width:50%;height:14px;margin-bottom:8px;background:#0f3460"></div>
+            <div class="placeholder" style="width:85%;height:10px;margin-bottom:4px;background:#1a1a3e"></div>
+            <div class="placeholder" style="width:35%;height:10px;background:#1a1a3e"></div>
+          </div>
+          <div style="background:#16213e;border-radius:8px;padding:16px;width:100%;max-width:420px">
+            <div class="placeholder" style="width:55%;height:14px;margin-bottom:8px;background:#0f3460"></div>
+            <div class="placeholder" style="width:80%;height:10px;margin-bottom:4px;background:#1a1a3e"></div>
+            <div class="placeholder" style="width:30%;height:10px;background:#1a1a3e"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>单列居中</h3>
+      <p>文章卡片纵向排列，最大宽度限制（~700px），视觉聚焦。像 overreacted.io 和大多数纯文本博客。</p>
+    </div>
+  </div>
+  <div class="card" data-choice="sidebar" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup" style="margin:0;border-radius:0 0 0 0;border-bottom:none">
+        <div class="mockup-header">侧边栏布局</div>
+        <div class="mockup-body" style="display:flex;gap:0;background:#1a1a2e;padding:0;height:140px">
+          <div class="mock-sidebar" style="width:100px;flex-shrink:0;padding:16px 10px;text-align:center;font-size:8px;color:#a0a0c0;border-right:1px solid #333;background:#12121e">
+            <div class="placeholder" style="height:8px;margin-bottom:6px"></div>
+            <div class="placeholder" style="height:8px;margin-bottom:6px"></div>
+            <div class="placeholder" style="height:8px;margin-bottom:6px"></div>
+            <div class="placeholder" style="height:8px"></div>
+          </div>
+          <div class="mock-content" style="flex:1;padding:16px;overflow:hidden">
+            <div style="background:#16213e;border-radius:6px;padding:12px;margin-bottom:8px">
+              <div class="placeholder" style="width:50%;height:12px;margin-bottom:6px;background:#0f3460"></div>
+              <div class="placeholder" style="width:80%;height:8px;background:#1a1a3e"></div>
+            </div>
+            <div style="background:#16213e;border-radius:6px;padding:12px">
+              <div class="placeholder" style="width:45%;height:12px;margin-bottom:6px;background:#0f3460"></div>
+              <div class="placeholder" style="width:75%;height:8px;background:#1a1a3e"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>侧边栏 + 内容</h3>
+      <p>左侧固定导航/标签，右侧文章列表。空间利用更好，适合需要分类筛选和快速导航的博客。</p>
+    </div>
+  </div>
+  <div class="card" data-choice="hero" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup" style="margin:0;border-radius:0 0 0 0;border-bottom:none">
+        <div class="mockup-header">Hero 型首页</div>
+        <div class="mockup-body" style="display:flex;flex-direction:column;align-items:center;background:#1a1a2e;padding:0">
+          <div style="background:linear-gradient(135deg,#0f3460,#16213e);width:100%;padding:24px 20px;text-align:center">
+            <div class="placeholder" style="width:120px;height:12px;margin:0 auto 8px;background:rgba(255,255,255,0.15)"></div>
+            <div class="placeholder" style="width:200px;height:10px;margin:0 auto;background:rgba(255,255,255,0.1)"></div>
+          </div>
+          <div style="padding:16px 20px;display:flex;flex-direction:column;gap:8px;width:100%;max-width:420px">
+            <div style="background:#16213e;border-radius:6px;padding:12px">
+              <div class="placeholder" style="width:50%;height:12px;margin-bottom:6px;background:#0f3460"></div>
+              <div class="placeholder" style="width:80%;height:8px;background:#1a1a3e"></div>
+            </div>
+            <div style="background:#16213e;border-radius:6px;padding:12px">
+              <div class="placeholder" style="width:45%;height:12px;margin-bottom:6px;background:#0f3460"></div>
+              <div class="placeholder" style="width:75%;height:8px;background:#1a1a3e"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Hero 大图 + 列表</h3>
+      <p>顶部个人介绍/大标题区域，下方文章列表。适合在首页突出个人品牌和简介。</p>
+    </div>
+  </div>
+</div>
