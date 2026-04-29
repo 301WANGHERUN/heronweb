@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevBlog</title>
+    <link>https://username.github.io</link>
+    <description>A developer's technical blog</description>
+    <atom:link href="https://username.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Wed, 29 Apr 2026 15:24:32 GMT</lastBuildDate>
+    
+    <item>
+      <title>Hello World: Building a Blog with Next.js</title>
+      <link>https://username.github.io/posts/hello-world</link>
+      <guid isPermaLink="true">https://username.github.io/posts/hello-world</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>A walkthrough of building a statically-generated developer blog using Next.js App Router, Tailwind CSS, and Markdown.</description>
+    </item>
+  </channel>
+</rss>
