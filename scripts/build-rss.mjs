@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-const SITE_URL = "https://username.github.io";
+const SITE_URL = "https://301wangherun.github.io/heronweb";
 const SITE_TITLE = "DevBlog";
 const SITE_DESCRIPTION = "A developer's technical blog";
 

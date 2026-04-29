@@ -5,7 +5,7 @@
     <link>https://username.github.io</link>
     <description>A developer's technical blog</description>
     <atom:link href="https://username.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 29 Apr 2026 15:24:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 15:34:11 GMT</lastBuildDate>
     
     <item>
       <title>Hello World: Building a Blog with Next.js</title>
